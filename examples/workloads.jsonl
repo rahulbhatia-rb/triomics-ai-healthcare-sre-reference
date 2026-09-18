@@ -1,0 +1,2 @@
+{"image_pinned": true, "tenant_isolated": true, "data_access_scoped": true, "backup_ready": true, "health_ratio": 1.0}
+{"image_pinned": false, "tenant_isolated": false, "data_access_scoped": false, "backup_ready": false, "health_ratio": 0.94}

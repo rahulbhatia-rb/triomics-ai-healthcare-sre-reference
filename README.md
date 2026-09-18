@@ -6,7 +6,12 @@ This maps the role’s Kubernetes, Terraform/Helm, cloud, security, AI/ML, singl
 
 ```bash
 python3 -m unittest discover -s tests -v
+python3 -m src.app < examples/workloads.jsonl
 ```
+
+The JSONL interface makes the admission decision consumable by a GitOps
+pipeline. The sample demonstrates both an admissible workload and a blocked
+workload with audit-friendly reasons.
 
 This is illustrative and does not claim access to Triomics systems or patient data.
 
